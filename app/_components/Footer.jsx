@@ -1,0 +1,41 @@
+import * as React from "react";
+
+export default function Footer() {
+  return (
+    <div className="flex flex-col px-12 pb-10 mt-32 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
+      <div className="flex gap-0 justify-between items-center px-12 py-4 text-white bg-orange-300 rounded-2xl max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+        <div className="self-stretch text-2xl font-medium tracking-tight leading-6">
+          NextLab
+          <br />
+          consulting
+        </div>
+        <div className="flex flex-1 justify-center items-center self-stretch px-16 my-auto text-base leading-6 max-md:px-5 max-md:max-w-full">
+          <div className="flex gap-4">
+            <div>Expertise</div>
+            <div>Services</div>
+            <div>Cases</div>
+            <div>Our team</div>
+          </div>
+        </div>
+        <div className="flex gap-5 justify-end self-stretch py-px pl-9 my-auto text-2xl leading-7 text-white">
+          <div className="grow my-auto">Follow us</div>
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/18ded3b9b1719cf8aee952513ab1cdd98eb9c7ea4cd22116b9a6c1a4acedfd38?apiKey=a077d5b1349f48f38f4ae0cc0f777298&"
+            className="shrink-0 max-w-full aspect-[4] w-[126px]"
+          />
+        </div>
+      </div>
+      <div className="flex gap-5 mt-6 text-sm leading-5 text-blue-950 max-md:flex-wrap max-md:max-w-full">
+        <div className="flex-1 max-md:max-w-full">
+          © 2023 Positron Insights. All rights reserved{" "}
+        </div>
+        <div className="flex-1 text-right max-md:max-w-full">
+          Privacy Policy
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
