@@ -15,7 +15,7 @@ function TeamMember({ name, title, bio, imageSrc }) {
                 className="object-cover absolute inset-0 size-full"
               />
               <div className="relative justify-center px-3 py-1.5 text-sky-700 uppercase whitespace-nowrap bg-white border border-white border-solid rounded-[1000px]">
-                {name}
+              <a href={"/"+name}>{name}</a>
               </div>
               <div className="relative mt-80 text-white max-md:mt-10">
                 {title}
@@ -23,9 +23,13 @@ function TeamMember({ name, title, bio, imageSrc }) {
             </div>
           </div>
           <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-            <div className="grow justify-center self-stretch py-6 text-lg tracking-tight leading-7 text-black max-md:mt-6">
-              {bio}
+            <div className="grow justify-center self-stretch py-6 text-lg tracking-tight leading-7 
+            
+            text-black max-md:mt-6">
+              <div className="line-clamp-[14] pr-2">{bio}</div>
+              <a className="text-blue-500 hover:underline" href={"/"+name}>Read more</a>
             </div>
+            
           </div>
         </div>
       </div>
