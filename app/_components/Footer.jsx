@@ -5,7 +5,7 @@ import { MainMenu } from "./constants";
 export default function Footer() {
   return (
     <div className="flex flex-col px-12 pb-10 mt-32 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
-      <div className="flex gap-0 justify-between items-center px-12 py-4 text-white bg-orange-300 rounded-2xl max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+      <div className="flex gap-0 justify-between items-center px-12 py-4 text-white bg-orange-300 rounded-[5px] max-md:flex-wrap max-md:px-5 max-md:max-w-full">
         <div className="self-stretch text-2xl font-medium tracking-tight leading-6">
           <Logo />
         </div>

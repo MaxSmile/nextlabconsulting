@@ -15,7 +15,7 @@ function Header() {
             <NavItem key={index} title={item.title} url={item.url} />
           ))}
         </nav>
-        <a href="#contact" className="bg-[#2877D3] px-4 py-3 text-lg text-white rounded-md">
+        <a href="#contact" className="bg-[#2877D3] px-4 py-3 text-lg text-white rounded-[5px]">
           Contact us
         </a>
       </div>

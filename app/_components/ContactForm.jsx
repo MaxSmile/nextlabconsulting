@@ -3,7 +3,7 @@ import ContactFormField from './ContactFormField';
 
 function ContactForm({ onSubmit }) {
   return (
-    <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+    <div className="flex flex-col ml-6">
       <div className="flex flex-col grow max-md:mt-10 max-md:max-w-full">
         <form onSubmit={onSubmit}>
           <ContactFormField label="Your name *" placeholder="Enter your name" />
@@ -14,7 +14,7 @@ function ContactForm({ onSubmit }) {
           <div className="flex gap-5 justify-between mt-5 max-md:flex-wrap max-md:max-w-full">
             <button onClick={onSubmit}
             className="px-8 py-3 text-lg font-medium 
-            whitespace-nowrap bg-white rounded-md text-blue-950 max-md:px-5">
+            whitespace-nowrap bg-white rounded-[5px] text-blue-950 max-md:px-5">
               Submit
             </button>
             <div className="my-auto text-sm leading-5 text-white">

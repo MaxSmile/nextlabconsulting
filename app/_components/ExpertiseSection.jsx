@@ -15,12 +15,12 @@ const AreaOfExpertise = ({ imageSrc, title }) => {
             <div
                 className="bg-cover pr-2 bg-center min-h-[180px] overflow-hidden flex-grow px-7 pb-8 
           text-2xl font-medium leading-10 
-          text-center text-white rounded max-md:px-5 max-md:pt-10 max-md:mt-6"
+          text-center text-white rounded-[5px] max-md:px-5 max-md:pt-10 max-md:mt-6"
                 style={{ backgroundImage: `url(${imageSrc})` }}
             >
                 {/* bg-black bg-opacity-50  */}
                 <div className="absolute mr-2 bottom-0 left-0 right-0 p-4 
-          
+          bg-black bg-opacity-50
           text-white text-center">
                     {title}
                 </div>

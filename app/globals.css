@@ -34,6 +34,10 @@ body {
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  @apply text-blue-950;
+}
+
 
 .hero-background {
   background-image: url("https://cdn.builder.io/api/v1/image/assets/TEMP/fe621aa40644eb11ac8f3827135e145a3acde57a4011c3a020f8d31945767448?apiKey=a077d5b1349f48f38f4ae0cc0f777298");
