@@ -1,27 +1,26 @@
-const Logo = () => (
-    <div className="font-bold">LOGO</div>
-  );
-  
-  const NavItem = ({ children }) => (
-    <div>{children}</div>
-  );
-  
-  const navItems = ["Expertise", "Services", "Our team", "Cases"];
-  
-  function Header() {
-    return (
-      <header className="flex gap-5 justify-between px-12 py-6 rounded backdrop-blur-[17.5px] bg-white bg-opacity-10 leading-[140%] max-md:flex-wrap max-md:px-5">
-        <nav className="flex gap-4 my-auto text-xl text-blue-950">
-          <Logo />
-          {navItems.map((item, index) => (
-            <NavItem key={index}>{item}</NavItem>
+import Logo from "./Logo";
+import { MainMenu } from "./constants";
+
+const NavItem = ({ title, url }) => (
+  <a href={url} className="text-blue-950 hover:text-blue-800">{title}</a>
+);
+
+function Header() {
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-[17.5px] bg-opacity-10 px-12 py-6">
+      <div className="container mx-auto flex justify-between items-center">
+        <Logo />
+        <nav className="flex gap-4 text-xl text-blue-950">
+          {MainMenu.map((item, index) => (
+            <NavItem key={index} title={item.title} url={item.url} />
           ))}
         </nav>
-        <button className="justify-center px-4 py-3 text-lg text-white rounded-md max-md:px-5">
+        <a href="#contact" className="bg-[#2877D3] px-4 py-3 text-lg text-white rounded-md">
           Contact us
-        </button>
-      </header>
-    );
-  }
-  
-  export default Header;
+        </a>
+      </div>
+    </header>
+  );
+}
+
+export default Header;

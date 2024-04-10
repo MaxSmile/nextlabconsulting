@@ -31,3 +31,27 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.hero-background {
+  background-image: url("https://cdn.builder.io/api/v1/image/assets/TEMP/fe621aa40644eb11ac8f3827135e145a3acde57a4011c3a020f8d31945767448?apiKey=a077d5b1349f48f38f4ae0cc0f777298");
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  position: relative;
+}
+
+.hero-background:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.1); /* Adjust the opacity as needed */
+}
+
+.container {
+  z-index: 1;
+}
