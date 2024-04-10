@@ -8,7 +8,6 @@ import TeamSection from "./_components/TeamSection";
 export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-
       <HeroSection />
       <ExpertiseSection />
       <ServicesSection />

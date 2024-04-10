@@ -7,7 +7,7 @@ const NavItem = ({ title, url }) => (
 
 function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-gray-50 backdrop-blur-[17.5px] bg-opacity-10 px-12 py-6 drop-shadow-xl">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-gray-50 backdrop-blur-[17.5px] bg-opacity-10 px-12 py-4 hover:shadow-xl shadow-inner">
       <div className="container mx-auto flex justify-between items-center">
         <Logo />
         <nav className="flex gap-4 text-xl text-blue-950">

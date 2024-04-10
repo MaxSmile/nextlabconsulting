@@ -18,11 +18,11 @@ export default function Footer() {
         </div>
         <div className="flex gap-5 justify-end self-stretch py-px pl-9 my-auto text-2xl leading-7 text-white">
           <div className="grow my-auto">Follow us</div>
-          <img
+          <a href="#" target="_blank"><img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/18ded3b9b1719cf8aee952513ab1cdd98eb9c7ea4cd22116b9a6c1a4acedfd38?apiKey=a077d5b1349f48f38f4ae0cc0f777298&"
             className="shrink-0 max-w-full aspect-[4] w-[126px]"
-          />
+          /></a>
         </div>
       </div>
       <div className="flex gap-5 mt-6 text-sm leading-5 text-blue-950 max-md:flex-wrap max-md:max-w-full">

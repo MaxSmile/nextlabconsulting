@@ -2,7 +2,7 @@ export default function HeroSection() {
     return (
       <section id="top" className="relative flex flex-col justify-center items-center 
        max-w-full font-medium text-blue-950 w-full">
-        <div className="hero-background py-40">
+        <div className="hero-background py-20">
           <div className="container ml-20 max-w-xl py-20">
             <h1 className="text-8xl tracking-tighter leading-[90px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
               NextLab Consulting
