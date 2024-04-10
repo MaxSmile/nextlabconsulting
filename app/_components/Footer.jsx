@@ -27,10 +27,10 @@ export default function Footer() {
       </div>
       <div className="flex gap-5 mt-6 text-sm leading-5 text-blue-950 max-md:flex-wrap max-md:max-w-full">
         <div className="flex-1 max-md:max-w-full">
-          © 2023 Positron Insights. All rights reserved{" "}
+          © 2023 - {new Date().getFullYear()} NextLab Consulting. All rights reserved{" "}
         </div>
         <div className="flex-1 text-right max-md:max-w-full">
-          Privacy Policy
+          <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a>
         </div>
       </div>
     </div>

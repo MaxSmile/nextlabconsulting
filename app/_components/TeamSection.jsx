@@ -37,7 +37,8 @@ function TeamMember({ name, title, bio, imageSrc }) {
 
 function TeamSection() {
   return (
-    <section id="team" className="flex flex-col px-10 mt-32 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
+    <section id="team" className="pt-10 w-full">
+    <div className="flex flex-col px-10 mt-32 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <header>
         <h2 className="text-6xl font-medium tracking-tighter uppercase leading-[60px] max-md:max-w-full max-md:text-4xl">
           Our&nbsp; 
@@ -59,6 +60,7 @@ function TeamSection() {
             ))}
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
