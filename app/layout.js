@@ -47,9 +47,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <Header />
-        {children}
-        <Footer />
+        <div className="overflow-x-hidden w-full">
+          <Header />
+          {children}
+          <Footer />
+        </div>
+
       </body>
     </html>
   );

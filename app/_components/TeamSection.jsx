@@ -7,8 +7,8 @@ function TeamMember({ name, title, bio, imageSrc }) {
       <div className="grow w-full bg-indigo-100 max-md:mt-6 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-            <div className="flex overflow-hidden relative flex-col grow justify-between items-start self-stretch px-3 pt-5 pb-4 
-            leading-7 aspect-[0.75] max-md:pr-5 max-md:mt-6">
+            <div className="flex overflow-hidden relative flex-col grow justify-between items-start self-stretch px-3 pb-4 
+            leading-7 aspect-[0.75] ">
               <img
                 loading="lazy"
                 src={imageSrc}
@@ -35,7 +35,7 @@ function TeamMember({ name, title, bio, imageSrc }) {
             <div className="grow justify-center self-stretch py-6 text-lg tracking-tight leading-7 
             
             text-black max-md:mt-6">
-              <div className="line-clamp-[14] pr-2">{bio}</div>
+              <div className="line-clamp-[14] p-2">{bio}</div>
               <a className="text-blue-500 hover:underline" href={"/" + name}>Read more</a>
             </div>
 

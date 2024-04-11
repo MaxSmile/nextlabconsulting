@@ -6,10 +6,10 @@ export default function Footer() {
   return (
     <div className="flex flex-col px-12 pb-10 mt-32 w-full max-w-7xl mx-auto">
       <div className="flex gap-0 justify-between items-center px-12 py-4 text-white bg-orange-300 rounded-md max-md:flex-wrap max-md:px-5 max-md:max-w-full">
-        <div className="self-stretch text-2xl font-medium tracking-tight leading-6 hover:opacity-80">
+        <div className="hidden md:flex text-2xl font-medium tracking-tight leading-6 hover:opacity-80">
           <Logo color="#ffffff" />
         </div>
-        <div className="flex flex-1 self-stretch px-16 my-auto text-base leading-6 max-md:px-5 max-md:max-w-full">
+        <div className="hidden lg:flex flex-1 self-stretch px-16 my-auto text-base leading-6 max-md:px-5 max-md:max-w-full">
           <div className="flex gap-4">
             {MainMenu.map((item, index) => (
               <a className="hover:opacity-80" href={item.url} key={index}>{item.title}</a>
