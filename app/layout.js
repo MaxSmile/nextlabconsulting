@@ -7,6 +7,7 @@ import Footer from "./_components/Footer";
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata = {
+  metadataBase: new URL('https://nextlabconsulting.com'),
   title: "NextLab Consulting",
   description: "Expert advisory in cyclotrons, radiochemistry, GMP compliance, and clean space design. Commitment to excellence and innovation.",
   manifest: '/site.webmanifest',
