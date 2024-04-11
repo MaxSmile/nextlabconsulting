@@ -6,13 +6,14 @@ export const MainMenu = [
 ];
 
 export const TeamMembers = [
+    
     {
-        name: "Harris Panopoulos",
-        title: "PhD in Radiochemistry",
-        bio: `Harris boasts over a decade of hands-on experience in utilizing cyclotrons within the realm of Nuclear Medicine. Positioned at one of Australia’s largest and oldest public hospital cyclotron facilities, he leads a highly capable team of scientists and engineers tasked with operating and maintaining the hospital’s two cyclotrons and Solid Target Lab. This lab serves as a crucial supplier of key isotopes utilized in both research and medical imaging, including F18, Cu64, Ga68, Y86, Zr89, and I124, catering to needs across Australia.
+        name: "Christian Wichmann",
+        title: "PhD in Physical Chemistry",
+        bio: `Christian is an accomplished radiopharmaceutical scientist with over 15 years of experience in basic, translational, and Phase I clinical research. Christian studied in Germany and Australia obtaining a post-graduate degree from the Technical University of Munich and a doctoral degree from the University of Melbourne with a focus on medicinal and radiochemistry.
 
-        With his seasoned expertise, Harris specializes in the development, purification, and quality control of cyclotron-based isotopes. Often presenting on the subject, he has pioneered multiple innovative isotopes along with the specialized targetry necessary for their production.`,
-        imageSrc: "/team/Harris.webp",
+        Christian brings comprehensive experience with a range of diagnostic and therapeutic radioisotopes. He has a strong background in development of small molecule diagnostic probes, and antibody-based conjugates for diagnostic and therapeutic applications. As the Senior Research Scientist, he has led pre-clinical evaluation of over 15 novel radiopharmaceuticals and oversaw radiochemistry aspects of 10 Phase I clinical bioimaging trials. He is currently facilitating several multi-centre trials in Australia in collaboration with global pharmaceutical companies.`,
+        imageSrc: "/team/Christian.webp",
     },
     {
         name: "Margaret Aulsebrook",
@@ -28,12 +29,11 @@ export const TeamMembers = [
         imageSrc: "/team/Nikita.webp",
     },
     {
-        name: "Christian Wichmann",
-        title: "PhD in Physical Chemistry",
-        bio: `Christian is an accomplished radiopharmaceutical scientist with over 15 years of experience in basic, translational, and Phase I clinical research. Christian studied in Germany and Australia obtaining a post-graduate degree from the Technical University of Munich and a doctoral degree from the University of Melbourne with a focus on medicinal and radiochemistry.
-
-        Christian brings comprehensive experience with a range of diagnostic and therapeutic radioisotopes. He has a strong background in development of small molecule diagnostic probes, and antibody-based conjugates for diagnostic and therapeutic applications. As the Senior Research Scientist, he has led pre-clinical evaluation of over 15 novel radiopharmaceuticals and oversaw radiochemistry aspects of 10 Phase I clinical bioimaging trials. He is currently facilitating several multi-centre trials in Australia in collaboration with global pharmaceutical companies.`,
-        imageSrc: "/team/Christian.webp",
+        name: "Harris Panopoulos",
+        title: "PhD in Radiochemistry",
+        bio: `Harris boasts over a decade of hands-on experience in utilizing cyclotrons within the realm of Nuclear Medicine. Positioned at one of Australia’s largest and oldest public hospital cyclotron facilities, he leads a highly capable team of scientists and engineers tasked with operating and maintaining the hospital’s two cyclotrons and Solid Target Lab. This lab serves as a crucial supplier of key isotopes utilized in both research and medical imaging, including F18, Cu64, Ga68, Y86, Zr89, and I124, catering to needs across Australia.
+        With his seasoned expertise, Harris specializes in the development, purification, and quality control of cyclotron-based isotopes. Often presenting on the subject, he has pioneered multiple innovative isotopes along with the specialized targetry necessary for their production.`,
+        imageSrc: "/team/Harris.webp",
     },
 ];
 
@@ -68,7 +68,7 @@ export const ServicesData = [
             "Personal Training",
             "Facility design and Layout"
         ],
-        imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/8e7c070d4f1194f65b161f38dea7df2f7a674a59514ecfa024a14a299b3e654f?apiKey=a077d5b1349f48f38f4ae0cc0f777298&"
+        index: 0
     },
     {
         title: "Consultation",
@@ -79,7 +79,7 @@ export const ServicesData = [
             "Expert advice",
             "Customized solutions"
         ],
-        imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/dcbf7eeb17121793197fd025f09d0229ca15d55f2562869180100a346265a343?apiKey=a077d5b1349f48f38f4ae0cc0f777298&"
+        index: 1
     },
     {
         title: "Training",
@@ -90,7 +90,7 @@ export const ServicesData = [
             "Hands-on practice",
             "Expert trainers"
         ],
-        imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/4186a802e3517e992841ed1a92c87c43e702099754c1c3acbb8973e6d8631b38?apiKey=a077d5b1349f48f38f4ae0cc0f777298&"
+        index: 2
     },
     {
         title: "Troubleshooting",
@@ -101,7 +101,7 @@ export const ServicesData = [
             "Effective solutions",
             "Preventive measures"
         ],
-        imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/0f15d184fb65db2afae452a00468e94e6bf092a636ec98a29829666b01f60490?apiKey=a077d5b1349f48f38f4ae0cc0f777298&"
+        index: 3
     }
 ];
 

@@ -4,12 +4,12 @@ import { MainMenu } from "./constants";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col px-12 pb-10 mt-32 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
-      <div className="flex gap-0 justify-between items-center px-12 py-4 text-white bg-orange-300 rounded-[5px] max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+    <div className="flex flex-col px-12 pb-10 mt-32 w-full max-w-7xl mx-auto">
+      <div className="flex gap-0 justify-between items-center px-12 py-4 text-white bg-orange-300 rounded-md max-md:flex-wrap max-md:px-5 max-md:max-w-full">
         <div className="self-stretch text-2xl font-medium tracking-tight leading-6">
-          <Logo />
+          <Logo color="#ffffff" />
         </div>
-        <div className="flex flex-1 justify-center items-center self-stretch px-16 my-auto text-base leading-6 max-md:px-5 max-md:max-w-full">
+        <div className="flex flex-1 self-stretch px-16 my-auto text-base leading-6 max-md:px-5 max-md:max-w-full">
           <div className="flex gap-4">
             {MainMenu.map((item, index) => (
               <a href={item.url} key={index}>{item.title}</a>

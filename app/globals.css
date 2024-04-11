@@ -28,6 +28,10 @@ body {
     rgb(var(--background-start-rgb)); */
 }
 
+section {
+  @apply max-w-7xl;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
