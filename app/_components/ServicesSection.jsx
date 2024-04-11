@@ -8,7 +8,7 @@ export default function ServicesSection () {
       <div className="flex flex-col px-10 mt-32 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
         <div className="text-6xl font-medium tracking-tighter uppercase leading-[60px] max-md:max-w-full max-md:text-4xl">
           <h2>Our&nbsp;
-          <span className="text-orange-300 ">Services</span></h2>
+          <span className="text-accent ">Services</span></h2>
         </div>
         <div className="flex flex-col mt-10 max-md:max-w-full">
           {ServicesData.map((service, index) => (

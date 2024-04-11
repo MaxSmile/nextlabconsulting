@@ -38,7 +38,7 @@ const ExpertiseSection = () => {
 
                 <h2 className="text-6xl font-medium tracking-tighter uppercase leading-[60px] max-md:max-w-full max-md:text-4xl">
                     Our area&nbsp;
-                    <span className="text-orange-300 ">of expertise</span>
+                    <span className="text-accent ">of expertise</span>
                 </h2>
                 <div className="mt-10 max-md:max-w-full">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 max-md:flex-col max-md:gap-0">
