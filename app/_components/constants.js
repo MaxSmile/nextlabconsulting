@@ -14,6 +14,7 @@ export const TeamMembers = [
 
         Christian brings comprehensive experience with a range of diagnostic and therapeutic radioisotopes. He has a strong background in development of small molecule diagnostic probes, and antibody-based conjugates for diagnostic and therapeutic applications. As the Senior Research Scientist, he has led pre-clinical evaluation of over 15 novel radiopharmaceuticals and oversaw radiochemistry aspects of 10 Phase I clinical bioimaging trials. He is currently facilitating several multi-centre trials in Australia in collaboration with global pharmaceutical companies.`,
         imageSrc: "/team/Christian.webp",
+        link:"/team/christian-wichmann",
     },
     {
         name: "Margaret Aulsebrook",
@@ -21,12 +22,14 @@ export const TeamMembers = [
         bio: `Dr. Maggie Aulsebrook holds over eight years of experience in the radiopharmaceutical sector. She specialises in the development and clinical translation of radiopharmaceuticals in regulated environments. Throughout her career, Maggie has delivered a number of first-in-human diagnostic (PET and SPECT) and therapeutic radiopharmaceuticals to the clinic. Her experience in radiopharmaceutical development spans the entire drug development pipeline from initial radiochemistry studies through to regulatory approvals.
         Maggie has worked in Europe, the United States and Australia with extensive experience in FDA and TGA licenced environments with experience in the supply of sterile radiopharmaceuticals in the private and public health sectors.`,
         imageSrc: "/team/Maggie.webp",
+        link:"/team/margaret-aulsebrook",
     },
     {
         name: "Nikita Safonov",
         title: "PhD in Organic Chemistry",
         bio: "Nikita is a seasoned professional in nuclear medicine with a foundation in nuclear physics and accelerator engineering acquired in Moscow, Russia. Having led the Cyclotron Laboratory at Moscow Central Hospital for eight years, his responsibilities included overseeing its establishment and the manufacturing of diverse radiotracers. Presently, serving as the Cyclotron Operations Manager at Royal Darwin Hospital, Australia, he has played a key role in the success of a project, contributing from its initiation to achieving operational status in 2022.",
         imageSrc: "/team/Nikita.webp",
+        link:"/team/nikita-safonov",
     },
     {
         name: "Harris Panopoulos",
@@ -34,6 +37,7 @@ export const TeamMembers = [
         bio: `Harris boasts over a decade of hands-on experience in utilizing cyclotrons within the realm of Nuclear Medicine. Positioned at one of Australia’s largest and oldest public hospital cyclotron facilities, he leads a highly capable team of scientists and engineers tasked with operating and maintaining the hospital’s two cyclotrons and Solid Target Lab. This lab serves as a crucial supplier of key isotopes utilized in both research and medical imaging, including F18, Cu64, Ga68, Y86, Zr89, and I124, catering to needs across Australia.
         With his seasoned expertise, Harris specializes in the development, purification, and quality control of cyclotron-based isotopes. Often presenting on the subject, he has pioneered multiple innovative isotopes along with the specialized targetry necessary for their production.`,
         imageSrc: "/team/Harris.webp",
+        link:"/team/harris-panopoulos",
     },
 ];
 

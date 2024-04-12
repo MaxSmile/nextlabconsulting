@@ -1,7 +1,7 @@
 import * as React from "react";
 import { TeamMembers } from "./constants";
 
-function TeamMember({ name, title, bio, imageSrc }) {
+function TeamMember({ name, title, bio, imageSrc,link }) {
   return (
     <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
       <div className="grow w-full bg-indigo-100 max-md:mt-6 max-md:max-w-full">
@@ -36,7 +36,7 @@ function TeamMember({ name, title, bio, imageSrc }) {
             
             text-black max-md:mt-6">
               <div className="line-clamp-[14] p-2">{bio}</div>
-              <a className="text-blue-500 hover:underline" href={"/" + name}>Read more</a>
+              <a className="text-blue-500 hover:underline" href={link}>Read more</a>
             </div>
 
           </div>

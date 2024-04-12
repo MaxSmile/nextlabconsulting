@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <div className="overflow-x-hidden w-full">
+        <div className="overflow-x-hidden w-full min-h-[90vh]">
           <Header />
           {children}
           <Footer />
