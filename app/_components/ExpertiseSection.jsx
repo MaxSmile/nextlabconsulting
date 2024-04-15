@@ -1,7 +1,7 @@
 import React from "react";
 import { AreasOfExpertise } from "./constants";
 
-const AreaOfExpertise = ({ imageSrc, title }) => {
+const AreaOfExpertise = ({ imageSrc, title, link }) => {
     return (
         <div
             className="flex mr-2 pr-2 flex-col w-1/2 sm:w-1/3 lg:w-1/4 max-md:w-1/2 max-md:ml-0 max-md:w-full relative"
@@ -14,15 +14,15 @@ const AreaOfExpertise = ({ imageSrc, title }) => {
         >
             <div
                 className="bg-cover pr-2 bg-center min-h-[180px] overflow-hidden flex-grow px-7 pb-8 
-          text-2xl font-medium leading-10 
+          text-xl font-medium leading-10 
           text-center text-white rounded-lg max-md:px-5 max-md:pt-10 max-md:mt-6"
                 style={{ backgroundImage: `url(${imageSrc})` }}
             >
                 
                 <div className="absolute mr-2 bottom-0 left-0 right-0 p-4 
-          bg-black bg-opacity-50 line-clamp-2
+          bg-black bg-opacity-50 line-clamp-2 rounded-b-lg
           text-white text-center min-h-[80px]">
-                    {title}
+                    <a href={link}>{title}</a>
                 </div>
             </div>
         </div>
@@ -47,6 +47,7 @@ const ExpertiseSection = () => {
                                 key={index}
                                 imageSrc={area.imageSrc}
                                 title={area.title}
+                                link={area.link}
                             />
                         ))}
                     </div>

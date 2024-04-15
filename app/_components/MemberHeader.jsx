@@ -4,7 +4,7 @@ import BackHistoryButton from './BackHistoryButton';
 
 export function MemberHeader({ article }) {
   return (
-    <section>
+    <section className="max-w-3xl mx-auto">
       <div className="my-12 md:flex">
         {/* Image on the left */}
         <div className="flex-shrink-0 mb-8 md:mb-0" data-aos="fade-right" data-aos-duration="1000">
@@ -18,7 +18,7 @@ export function MemberHeader({ article }) {
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
             style={{ width: '320px', minWidth: '260px', height: 'auto' }}
-            className="mx-auto rounded-2xl object-cover shadow-lg"
+            className="mx-auto rounded-lg object-cover shadow-lg"
           />
         </div>
         

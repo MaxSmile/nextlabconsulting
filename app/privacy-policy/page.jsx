@@ -12,7 +12,7 @@ export default function PrivacyPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
 
-      <section className="container mx-auto max-w-4xl mt-40 px-4 py-8">
+      <section className="container mx-auto max-w-4xl mt-40 px-4 py-8 text-gray-800">
         <h1 className="text-3xl font-semibold mb-4">Privacy Policy</h1>
         <p className="mb-4">This Privacy Policy describes how NextLab Consulting ("we", "us", or "our") collects, uses, and shares your personal information when you use our website at <strong>{webSiteULR}</strong> (the "Site").</p>
 
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
           <li>Operating system</li>
         </ul>
         <p className="mb-4">Google Analytics does not collect any personally identifiable information (PII). We use this information to understand how visitors engage with our website and to improve our services and user experience.</p>
-        <p className="mb-4">For more information on how Google Analytics handles user data, please refer to Google's Privacy Policy: <a href="https://policies.google.com/privacy" className="text-blue-500 underline">Google Privacy Policy</a>.</p>
+        <p className="mb-4">For more information on how Google Analytics handles user data, please refer to Google's Privacy Policy: <a href="https://policies.google.com/privacy" className="text-blue-500 underline" target="_blank">Google Privacy Policy</a>.</p>
 
         <p className="mb-4">If you choose to contact us through the contact form on our website, we may collect the following personal information:</p>
         <ul className="list-disc ml-8 mb-4">

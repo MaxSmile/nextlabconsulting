@@ -12,7 +12,7 @@ export default function ServicesSection () {
         </div>
         <div className="flex flex-col mt-10 max-md:max-w-full">
           {ServicesData.map((service, index) => (
-            <ServiceRecord key={index} {...service} />
+            <ServiceRecord key={index} {...service}  />
           ))}
         </div>
         </div>

@@ -1,3 +1,5 @@
+// app/_components/constants.js
+
 export const MainMenu = [
     { title: "Expertise", url: "/#expertise" },
     { title: "Services", url: "/#services" },
@@ -45,18 +47,22 @@ export const AreasOfExpertise = [
     {
         imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/9aa720df0acc118c82c0765f1f15e2139fb30ed91883341f3a746e67d1f5e574?apiKey=a077d5b1349f48f38f4ae0cc0f777298&",
         title: "Cyclotrons and Radiochemistry",
+        link:"services/#cyclotrons-and-radiochemistry",
     },
     {
         imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/993c59ca6e0280478dc0b000478095de89bbf521702fdb9e1627b8fe65720039?apiKey=a077d5b1349f48f38f4ae0cc0f777298&",
         title: "Training and Quality Management System",
+        link:"services/#training-and-quality-management-system",
     },
     {
         imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/ca31207714cf35204cdd0bc940dffc7d54617be3af08e4fa260032179f5c4bd0?apiKey=a077d5b1349f48f38f4ae0cc0f777298&",
         title: "Quality Control and GMP Compliance",
+        link:"services/#quality-control-and-gmp-compliance",
     },
     {
         imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/52592cce82f9317d41652231d068745c015de15c959142bcac3b8aa0c29f9e63?apiKey=a077d5b1349f48f38f4ae0cc0f777298&",
-        title: "Hot Cells and Clean Space Suite",
+        title: "Facility design and equipment procurement",
+        link:"services/#facility-design-and-equipment-procurement",
     },
 ];
 

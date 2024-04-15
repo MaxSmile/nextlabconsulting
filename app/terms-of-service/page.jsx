@@ -11,7 +11,7 @@ export default function TermsPage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <section className="container mx-auto max-w-4xl mt-40 px-4 py-8">
+      <section className="container mx-auto max-w-4xl mt-40 px-4 py-8 text-gray-800">
         <h1 className="text-3xl font-semibold mb-4">Terms of Service</h1>
         <p className="mb-4">These Terms of Service govern your use of the website located at <strong>{webSiteURL}</strong> and any related services provided by NextLab Consulting.</p>
         <p className="mb-4">By accessing <strong>{webSiteURL}</strong>, you agree to abide by these Terms of Service and any amendments to the terms. If you do not agree to obey these Terms of Service, you are not permitted to use or access the website.</p>

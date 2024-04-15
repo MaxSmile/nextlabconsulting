@@ -16,6 +16,11 @@
   }
 }
 
+main 
+{
+  @apply text-gray-800;
+}
+
 @font-face {
   font-family: 'Sansation';
   font-style: normal;
