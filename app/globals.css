@@ -16,10 +16,25 @@
   }
 }
 
+@font-face {
+  font-family: 'Sansation';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/sansation-family/sansation.regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sansation';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/sansation-family/sansation.bold.ttf') format('truetype');
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background: white;
-  
+
   /* linear-gradient(
       to bottom,
       transparent,
@@ -38,18 +53,41 @@ section {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  @apply text-blue-950;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-secondary;
 }
 
 
 .hero-background {
-  background-image: url("https://cdn.builder.io/api/v1/image/assets/TEMP/fe621aa40644eb11ac8f3827135e145a3acde57a4011c3a020f8d31945767448?apiKey=a077d5b1349f48f38f4ae0cc0f777298");
+  background-image: url("/bg2.webp");
   background-size: cover;
   background-position: center;
 
   width: 100%;
   position: relative;
+}
+
+.hero-line1 {
+  font-family: Sansation;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.hero-line2 {
+  font-family: Sansation;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
 
 .hero-background:before {
@@ -59,7 +97,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.1); /* Adjust the opacity as needed */
+  background: rgba(255, 255, 255, 0.1);
+  /* Adjust the opacity as needed */
 }
 
 .container {

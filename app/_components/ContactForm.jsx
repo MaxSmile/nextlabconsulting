@@ -14,7 +14,7 @@ function ContactForm({ onSubmit }) {
           <div className="flex gap-5 justify-between mt-5 max-md:flex-wrap max-md:max-w-full">
             <button onClick={onSubmit}
             className="px-8 py-3 text-lg font-medium hover:opacity-80
-            whitespace-nowrap bg-white rounded-md text-blue-950 max-md:px-5">
+            whitespace-nowrap bg-white rounded-lg text-secondary max-md:px-5">
               Submit
             </button>
             <div className="my-auto text-sm leading-5 text-white">

@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const NavItem = ({ title, url }) => (
-  <a href={url} className="text-blue-900 hover:text-blue-800">{title}</a>
+  <a href={url} className="text-secondary hover:text-blue-800">{title}</a>
 );
 
 export default function Header() {
@@ -20,25 +20,25 @@ console.log(menuClasses)
         
         <div className="flex gap-8">
         <Logo />
-          <nav className="hidden md:flex gap-8 text-xl text-blue-950 mt-2">
+          <nav className="hidden md:flex gap-8 text-xl text-secondary mt-2">
             {MainMenu.map((item, index) => (
               <NavItem key={index} title={item.title} url={item.url} />
             ))}
           </nav>
           
         </div>
-        <a href="#contact" className="bg-blue-900 px-4 py-3 text-lg text-white rounded-md hover:opacity-80">
+        <a href="/#contact" className="bg-secondary px-4 py-2 text-lg text-white rounded-lg hover:opacity-80">
             Contact us
           </a>
 
-        <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden z-50 text-blue-900">
+        <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden z-50 text-secondary">
           {isMenuOpen ? <AiOutlineClose size="24" /> : <AiOutlineMenu size="24" />}
         </button>
 
         <div className={`absolute top-10 mt-8 right-0 h-[100vh] w-[50%] bg-white p-5 
         transition-transform transform z-50 ${menuClasses} shadow-xl
          md:hidden`}>
-          <nav className="flex flex-col gap-8 text-xl text-blue-900  mt-2 h-full" onClick={() => setIsMenuOpen(false)}>
+          <nav className="flex flex-col gap-8 text-xl text-secondary  mt-2 h-full" onClick={() => setIsMenuOpen(false)}>
             {MainMenu.map((item, index) => (
               <NavItem key={index} title={item.title} url={item.url} />
             ))}

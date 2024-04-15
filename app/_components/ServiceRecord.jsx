@@ -16,9 +16,9 @@ const ServiceRecord = ({ title, description, bulletPoints, index }) => {
   ]
 
   return (
-    <div className="flex flex-col max-md:max-w-full">
-      <div className="flex flex-col text-5xl whitespace-nowrap leading-[52.8px] text-blue-950 max-md:max-w-full">
-        <div className="shrink-0 h-px rounded-md bg-zinc-500 max-md:max-w-full" />
+    <div className="flex flex-col max-md:max-w-full rounded-lg">
+      <div className="flex flex-col text-5xl whitespace-nowrap leading-[52.8px] text-secondary max-md:max-w-full">
+        <div className="shrink-0 h-px rounded-lg bg-zinc-500 max-md:max-w-full" />
         <div className="flex gap-0 justify-between p-9 bg-white max-md:flex-wrap max-md:px-5" onClick={toggleExpanded}>
           <div className="flex flex-1 gap-4 max-md:flex-wrap">
             {/* <img
@@ -33,7 +33,7 @@ const ServiceRecord = ({ title, description, bulletPoints, index }) => {
           </div>
           <FaChevronDown className={`w-8 h-8 transform ${isExpanded ? '-rotate-180' : 'rotate-0'} transition-transform duration-300`} />
         </div>
-        <div className="shrink-0 h-px rounded-md bg-zinc-500 max-md:max-w-full" />
+        <div className="shrink-0 h-px rounded-lg bg-zinc-500 max-md:max-w-full" />
       </div>
       {isExpanded && (
         <div className="p-9 bg-white border-b border-solid border-zinc-500 max-md:px-5 max-md:max-w-full">
@@ -45,7 +45,7 @@ const ServiceRecord = ({ title, description, bulletPoints, index }) => {
               {bulletPoints.map((point, index) => (
                 <div key={index} className="flex gap-2">
                   <div className="flex flex-col">
-                    <div className="shrink-0 w-3 h-3 bg-blue-700 rounded-md mt-2" />
+                    <div className="shrink-0 w-3 h-3 bg-blue-700 rounded-lg mt-2" />
                   </div>
                   <div className="text-xl font-bold leading-7 text-gray-900">
                     {point}

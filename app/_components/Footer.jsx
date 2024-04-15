@@ -5,9 +5,9 @@ import { MainMenu } from "./constants";
 export default function Footer() {
   return (
     <div className="flex flex-col px-12 pb-10 mt-32 w-full max-w-7xl mx-auto">
-      <div className="flex gap-0 justify-between items-center px-12 py-4 text-white bg-accent rounded-md max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+      <div className="flex gap-0 justify-between items-center px-12 py-4 text-white bg-tertiary rounded-lg max-md:flex-wrap max-md:px-5 max-md:max-w-full">
         <div className="hidden md:flex text-2xl font-medium tracking-tight leading-6 hover:opacity-80">
-          <Logo color="#ffffff" />
+          <Logo color="white" />
         </div>
         <div className="hidden lg:flex flex-1 self-stretch px-16 my-auto text-base leading-6 max-md:px-5 max-md:max-w-full">
           <div className="flex gap-4">
@@ -25,7 +25,7 @@ export default function Footer() {
           /></a>
         </div>
       </div>
-      <div className="flex gap-5 mt-6 text-sm leading-5 text-blue-950 max-md:flex-wrap max-md:max-w-full">
+      <div className="flex gap-5 mt-6 text-sm leading-5 text-secondary max-md:flex-wrap max-md:max-w-full">
         <div className="flex-1 max-md:max-w-full">
           © 2023 - {new Date().getFullYear()} NextLab Consulting. All rights reserved{" "}
         </div>
