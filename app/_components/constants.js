@@ -39,8 +39,8 @@ export const TeamMembers = [
         bio: `Harris boasts over a decade of hands-on experience in utilizing cyclotrons within the realm of Nuclear Medicine. Positioned at one of Australia’s largest and oldest public hospital cyclotron facilities, he leads a highly capable team of scientists and engineers tasked with operating and maintaining the hospital’s two cyclotrons and Solid Target Lab. This lab serves as a crucial supplier of key isotopes utilized in both research and medical imaging, including F18, Cu64, Ga68, Y86, Zr89, and I124, catering to needs across Australia.
         With his seasoned expertise, Harris specializes in the development, purification, and quality control of cyclotron-based isotopes. Often presenting on the subject, he has pioneered multiple innovative isotopes along with the specialized targetry necessary for their production.`,
         imageSrc: "/team/Harris.webp",
-        link:"/team/harris-panopoulos",
-    },
+        link:"/team/harris-panopoulos"
+    }
 ];
 
 export const AreasOfExpertise = [

@@ -30,9 +30,14 @@ function ContactFormSection() {
                   Get in touch
                 </div>
                 <div className="mt-6 text-xl leading-7 text-white">
-                  Share your project insights! Click here to fill out a quick form
+                  <p>Share your project insights!</p>
+                  <p className='mt-4'>Click here to fill out a quick form
                   and help us better understand your needs, ensuring we provide
-                  the best possible service
+                  the best possible service.</p>
+                  <p className="mt-8">
+                  Email us for any question at <a href='mailto:info@nextlabconsultion.com' 
+                    className="text-blue-200 underline hover:opacity-80" target='_blank'>info@nextlabconsultion.com</a>
+                    </p>
                 </div>
               </div>
             </div>
