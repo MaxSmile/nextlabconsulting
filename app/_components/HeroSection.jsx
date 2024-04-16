@@ -1,11 +1,15 @@
 export default function HeroSection() {
   return (
     <div id="top" className="relative flex flex-col justify-center items-center 
-       max-w-full font-medium text-secondary w-full">
-      <div className="hero-background py-20">
-        <div className="max-w-7xl w-full mx-auto overflow-hidden">
+       max-w-full font-medium text-[#fff] w-full">
+      <div className="hero-background py-10 relative">
+        <video autoPlay muted loop className="absolute w-full h-full object-cover">
+          <source src="/bg-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="max-w-7xl w-full mx-auto overflow-hidden relative z-10">
           <div className="container max-w-xl py-20 px-10">
-            <h1 className="text-8xl tracking-tighter max-md:max-w-full max-md:text-4xl max-md:leading-10">
+            <h1 className="lg:text-8xl text-2xl tracking-tighter max-md:max-w-full max-md:text-4xl max-md:leading-10 text-white">
               <span className="hero-line2" >We are </span><br/>
               <span className="hero-line1" >NextLab</span><br/><span className="hero-line2" >Consulting</span>
             </h1>
@@ -14,7 +18,6 @@ export default function HeroSection() {
             </p>
           </div>
         </div>
-
       </div>
     </div>
   );
