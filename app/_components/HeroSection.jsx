@@ -3,7 +3,7 @@ export default function HeroSection() {
     <div id="top" className="relative flex flex-col justify-center items-center 
        max-w-full font-medium text-[#fff] w-full">
       <div className="hero-background py-10 relative">
-        <video autoPlay muted loop className="absolute w-full h-full object-cover">
+        <video autoPlay muted loop playsInline className="absolute w-full h-full object-cover">
           <source src="/bg-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
