@@ -37,7 +37,7 @@ function TeamMember({ name, title, bio, imageSrc,link }) {
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="grow justify-center self-stretch py-6 tracking-tight leading-7 
             text-accent max-md:mt-6">
-              <div className="line-clamp-[14] pr-2">{bio}</div>
+              <div className="line-clamp-[14] pr-2 pl-2 md:pl-0">{bio}</div>
               <a className="text-blue-500 hover:underline" href={link}>Read more</a>
             </div>
 
