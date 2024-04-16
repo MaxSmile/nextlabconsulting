@@ -14,7 +14,7 @@ export default function Header() {
   const menuClasses = isMenuOpen ? "translate-x-0" :"translate-x-full";
 console.log(menuClasses)
   return (
-    <header className="fixed top-0 left-0 right-0 z-40 bg-white bg-opacity-50 backdrop-blur-md py-3 shadow-xl hover:shadow-inner">
+    <header className="fixed top-0 left-0 right-0 z-40 bg-[#eee] py-3 shadow-xl hover:shadow-inner ">
       <div className="container mx-auto flex justify-between items-center max-w-7xl lg:px-10 px-4">
         
         
@@ -27,7 +27,7 @@ console.log(menuClasses)
           </nav>
           
         </div>
-        <a href="/#contact" className="bg-secondary px-4 py-2 text-lg text-white rounded-lg hover:opacity-80">
+        <a href="/#contact" className="bg-secondary px-4 py-2 text-lg text-white rounded-lg  hidden visible-above-320">
             Contact us
           </a>
 

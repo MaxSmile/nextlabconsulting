@@ -111,3 +111,13 @@ h6 {
 .container {
   z-index: 1;
 }
+
+@media (min-width: 321px) {
+  .visible-above-320 {
+    display: block;
+  }
+}
+
+a {
+  @apply hover:opacity-80
+}

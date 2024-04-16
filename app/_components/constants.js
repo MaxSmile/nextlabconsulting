@@ -4,7 +4,7 @@ export const MainMenu = [
     { title: "Expertise", url: "/#expertise" },
     { title: "Services", url: "/#services" },
     { title: "Our team", url: "/#team" },
-    { title: "Cases", url: "/#cases" }
+    // { title: "Cases", url: "/#cases" }
 ];
 
 export const TeamMembers = [

@@ -37,7 +37,7 @@ const ExpertiseSection = () => {
             <div className="flex flex-col px-10 mt-28 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
 
                 <h2 className="text-6xl font-medium tracking-tighter uppercase leading-[60px] max-md:max-w-full max-md:text-4xl">
-                    Our area&nbsp;
+                    Our areas&nbsp;
                     <span className="text-accent ">of expertise</span>
                 </h2>
                 <div className="mt-10 max-md:max-w-full">
