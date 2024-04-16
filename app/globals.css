@@ -84,6 +84,7 @@ h6 {
   line-height: 90px;
   letter-spacing: -0.02em;
   text-align: left;
+  @apply max-md:text-4xl;
 }
 
 .hero-line2 {
@@ -93,6 +94,7 @@ h6 {
   line-height: 72px;
   letter-spacing: -0.02em;
   text-align: left;
+  @apply max-md:text-3xl;
 }
 
 .hero-background:before {
