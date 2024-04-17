@@ -35,9 +35,9 @@ export const TeamMembers = [
     },
     {
         name: "Harris Panopoulos",
-        title: "PhD in Radiochemistry",
-        bio: `Harris boasts over a decade of hands-on experience in utilizing cyclotrons within the realm of Nuclear Medicine. Positioned at one of Australia’s largest and oldest public hospital cyclotron facilities, he leads a highly capable team of scientists and engineers tasked with operating and maintaining the hospital’s two cyclotrons and Solid Target Lab. This lab serves as a crucial supplier of key isotopes utilized in both research and medical imaging, including F18, Cu64, Ga68, Y86, Zr89, and I124, catering to needs across Australia.
-        With his seasoned expertise, Harris specializes in the development, purification, and quality control of cyclotron-based isotopes. Often presenting on the subject, he has pioneered multiple innovative isotopes along with the specialized targetry necessary for their production.`,
+        title: "MSc in Physics",
+        bio: `Harris brings over a decade of hands-on experience in the use of cyclotrons in the field of Nuclear Medicine. Based at one of Australia’s largest and oldest public hospital cyclotron facilities, he leads a highly capable team of scientists and engineers that is responsible for the operation and upkeep of the hospital’s two cyclotrons and Solid Target Lab, which provides Australia wide supply of key isotopes used for research and medical imaging such as F18, Cu64, Ga68, Y86, Zr89, and I124.
+       Harris is a seasoned expert in the development, purification and QC of cyclotron based isotopes. Often presenting on the subject, he has developed multiple novel isotopes and the specialized targetry necessary for their production.`,
         imageSrc: "/team/Harris.webp",
         link:"/team/harris-panopoulos"
     }
@@ -73,10 +73,12 @@ export const ServicesData = [
         bulletPoints: [
             "Quality Control Procedures",
             "Regulatory Compliance",
-            "Equipment Calibration and Maintenance",
             "Documentation Practices",
-            "Personal Training",
-            "Facility design and Layout"
+            "Cyclotron operation",
+            "Radiation Safety",
+            "cGMP",
+            "Staffing & Budget"
+
         ],
         index: 0
     },
@@ -84,10 +86,13 @@ export const ServicesData = [
         title: "Consultation",
         description: "Consultation services for your projects",
         bulletPoints: [
-            "Project analysis",
-            "Recommendations",
-            "Expert advice",
-            "Customized solutions"
+            "Nuclear medicine production facility design",
+            "Equipment procurement",
+            "Operations",
+            "Radioisotope production implementation",
+            "Radiopharmaceutical development",
+            "Regulatory and GMP Compliance",
+            "Clinical translation"
         ],
         index: 1
     },
@@ -95,10 +100,13 @@ export const ServicesData = [
         title: "Training",
         description: "Professional training sessions tailored to your needs",
         bulletPoints: [
-            "Skill development",
-            "Certification programs",
-            "Hands-on practice",
-            "Expert trainers"
+            "Cyclotron operation and managment",
+            "Radiochemistry",
+            "Quality assurance",
+            "Quality control",
+            "Annual GMP requalification",
+            "Radiation Safety",
+            "Cleanroom practices"
         ],
         index: 2
     },
