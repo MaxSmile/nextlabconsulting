@@ -2,7 +2,7 @@
 date: "2024-03-20T00:00:00Z"
 title: "Christian Wichmann"
 subtitle: "PhD in Radiochemistry"
-description: "Cofounder and Radiochemist"
+description: "Cofounder"
 picture: "/team/Christian.webp"
 expertise:
     - Radiochemistry of SPECT, PET, and therapeutic isotopes including 11C, 18F, 64Cu, 68Ga, 89Zr, 99mTc, 124I, 177Lu, and 225Ac
@@ -18,6 +18,11 @@ expertise:
     - Radiochemistry facility planning, equipment procurement, installation, and operational support
     - Radiation Safety
     - Shipping of radioactive dangerous goods
+keywords:
+    - Radiochemistry
+    - Bioconjugation
+    - Radiopharmaceutical Development
+    - Compliance
 ---
 Christian is an accomplished radiopharmaceutical scientist with over 15 years of experience in basic, translational, and Phase I clinical research. Christian studied in Germany and Australia obtaining a post-graduate degree from the Technical University of Munich and a doctoral degree from the University of Melbourne with a focus on medicinal and radiochemistry.
 

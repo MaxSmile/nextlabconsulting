@@ -34,6 +34,7 @@ function getBlogBySlug(slug) {
   
  function getMemberBySlug(slug) {
     const realSlug = slug.replace(/\.md$/, "");
+    console.log(realSlug)
     const fullPath = join(membersDirectory, `${realSlug}.md`);
     const fileContents = fs.readFileSync(fullPath, "utf8");
     const { data, content } = matter(fileContents);

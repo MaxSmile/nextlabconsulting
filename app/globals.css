@@ -112,7 +112,7 @@ h6 {
   z-index: 1;
 }
 
-@media (min-width: 321px) {
+@media (min-width: 376px) {
   .visible-above-320 {
     display: block;
   }
