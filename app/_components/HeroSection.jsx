@@ -15,7 +15,7 @@ export default function HeroSection() {
             </h1>
             <p className="mt-10 text-xl leading-8 max-md:max-w-full">
 
-The management advisory team with extensive experience in delivering world-class services in cyclotrons, radiochemistry, GMP compliance, and clean room design.
+            The management advisory team delivering world-class services in radiochemistry, radiopharmaceutical development, and cyclotron facility and GMP clean room design
 
             </p>
           </div>
