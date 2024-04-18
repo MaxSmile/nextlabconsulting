@@ -1,6 +1,6 @@
 ---
 date: "2024-03-20T00:00:00Z"
-title: "Margaret Aulsebrook"
+title: "Maggie Aulsebrook"
 subtitle: "PhD in Radiochemistry"
 description: "Cofounder"
 picture: "/team/Maggie.webp"
