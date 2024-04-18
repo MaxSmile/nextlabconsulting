@@ -38,7 +38,7 @@ function TeamMember({ name, title, picture, slug, subtitle, keywords, descriptio
           </div>
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="grow justify-center self-stretch py-6 tracking-tight leading-7 
-            text-accent max-md:mt-6">
+            text-accent max-md:mt-6 px-3">
               <div><a href={'/team/' + slug + '/'}><h2 className="text-3xl font-medium">{title}</h2></a></div>
               <div className="text-xl text-secondary">{description}</div>
               <div className="text-xl my-3">{subtitle}</div>

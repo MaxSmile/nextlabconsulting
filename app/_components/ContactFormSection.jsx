@@ -16,7 +16,7 @@ function ContactFormSection() {
   return (
     <section id="contact" className="pt-6 flex flex-col px-12 pb-10 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <div className="flex justify-center items-center self-center px-6 
-      py-16 mt-32 bg-blue-700 rounded-lg 
+      py-16 mt-32 bg-secondary rounded-lg 
        md:w-full max-md:px-5 max-md:mt-10">
         <div className="w-full max-w-7xl">
 
