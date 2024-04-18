@@ -2,7 +2,7 @@
 date: "2024-03-20T00:00:00Z"
 title: "Harris Panopoulos"
 description: "Cofounder"
-subtitle: "MSc in Physics"
+subtitle: "Cyclotorn Engineer & Physicist"
 picture: "/team/Harris.webp"
 expertise:
     - Complete servicing and operational support of medical cyclotrons and ancillary equipment
@@ -10,10 +10,10 @@ expertise:
     - Project management of cyclotron radiochemistry labs, including hotcell and cleanroom design and construction
     - Equipment procurement, install, maintenance and operational support
 keywords:
-    - Radiochemistry
-    - Bioconjugation
-    - Radiopharmaceutical Development
-    - Compliance
+    - Cyclotrons
+    - Isotope produciton
+    - RadioPharm lab design
+    - Equipment procurment
 ---
 Harris brings over a decade of hands-on experience in the use of cyclotrons in the field of Nuclear Medicine. Based at one of Australia’s largest and oldest public hospital cyclotron facilities, he leads a highly capable team of scientists and engineers that is responsible for the operation and upkeep of the hospital’s two cyclotrons and Solid Target Lab, which provides Australia wide supply of key isotopes used for research and medical imaging such as F18, Cu64, Ga68, Y86, Zr89, and I124.
 
