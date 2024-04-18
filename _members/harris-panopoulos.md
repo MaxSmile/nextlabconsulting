@@ -2,7 +2,7 @@
 date: "2024-03-20T00:00:00Z"
 title: "Harris Panopoulos"
 description: "Cofounder"
-subtitle: "Cyclotorn Engineer & Physicist"
+subtitle: "Cyclotron Engineer & Physicist"
 picture: "/team/Harris.webp"
 expertise:
     - Complete servicing and operational support of medical cyclotrons and ancillary equipment
