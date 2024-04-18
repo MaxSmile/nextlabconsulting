@@ -24,21 +24,18 @@ export function MemberHeader({ article }) {
         
         {/* Content on the right */}
         <div className="flex-grow text-left md:ml-8">
-          {/* <p className="text-secondary py-4">
-            <BackHistoryButton />
-          </p> */}
+
           <h1 className="text-secondary mb-4 text-3xl">{article.title}</h1>
           
           <p className="text-secondary">{article.description}</p>
           <h2 className='text-2xl mt-4'>Areas of Expertise</h2>
-          <p className="text-secondary">
-            <ul>
+          <ul className="text-secondary">
+   
               {article.expertise.map((area, index) => (
                 <li key={index} className=" ml-0 hover:underline" >{area}</li>
               ))}
+  
             </ul>
-            {/* {article.expertise} */}
-            </p>
         </div>
       </div>
       <h2 className="text-2xl my-4">Biography</h2>

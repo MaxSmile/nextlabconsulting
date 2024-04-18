@@ -11,15 +11,17 @@ function TeamMember({ name, title, picture, slug, subtitle, keywords, descriptio
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex overflow-hidden relative flex-col grow justify-between items-start self-stretch px-3 pb-4 
             leading-7 aspect-[0.75] ">
-              <Image
-                loading="lazy"
-                src={picture}
-                alt={`${name}'s headshot`}
-                className="object-cover absolute inset-0 size-full"
-                style={{ minWidth: "240px", height: "100%" }}
-                width={275}
-                height={484}
-              />
+              <a href={"/team/" + slug} className="absolute inset-0" >
+                <Image
+                  loading="lazy"
+                  src={picture}
+                  alt={`${name}'s headshot`}
+                  className="object-cover absolute inset-0 size-full"
+                  style={{ minWidth: "240px", height: "100%" }}
+                  width={275}
+                  height={484}
+                />
+              </a>
               {/*
               <div className="absolute bottom-0 left-0 right-0 p-4 text-xt font-medium leading-10 uppercase
           bg-black bg-opacity-50
@@ -43,8 +45,8 @@ function TeamMember({ name, title, picture, slug, subtitle, keywords, descriptio
               <div className="text-xl text-secondary">{description}</div>
               <div className="text-xl my-3">{subtitle}</div>
               
-              <div className="w-full">{keywords.map((keyword, index) => <div className="my-2"><span className="bg-secondary p-1 text-white rounded-lg"
-              key={index}>{keyword}</span></div>)}</div>
+              <div className="w-full">{keywords.map((keyword, index) => <div  key={index} className="my-2"><span className="bg-secondary p-1 text-white rounded-lg"
+              >{keyword}</span></div>)}</div>
             </div>
 
           </div>
@@ -59,7 +61,7 @@ function TeamMember({ name, title, picture, slug, subtitle, keywords, descriptio
 function TeamSection() {
   const TeamMembers = getMemberSlugs();
   const TeamInfo = [];
-  TeamMembers.map((slug, index) => {
+  TeamMembers.map((slug) => {
     const obj = getMemberBySlug(slug);
     TeamInfo.push(obj)
   })
@@ -74,15 +76,15 @@ function TeamSection() {
         <div className="flex flex-col mt-10 max-md:max-w-full">
           <div className="max-md:max-w-full">
             <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-              {TeamInfo.slice(0, 2).map((member, index) => (
-                <TeamMember key={index} {...member} />
+              {TeamInfo.slice(0, 2).map((member) => (
+                <TeamMember key={member.slug} {...member} />
               ))}
             </div>
           </div>
           <div className="mt-6 max-md:max-w-full">
             <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-              {TeamInfo.slice(2).map((member, index) => (
-                <TeamMember key={index} {...member} />
+              {TeamInfo.slice(2).map((member) => (
+                <TeamMember key={member.slug} {...member} />
               ))}
             </div>
           </div>
