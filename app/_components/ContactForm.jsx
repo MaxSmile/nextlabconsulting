@@ -10,7 +10,7 @@ function ContactForm({ onSubmit }) {
           <ContactFormField label="Mobile Number *" placeholder="Enter your mobile number" />
           <ContactFormField label="E-mail *" placeholder="Enter your email address" />
           <ContactFormField label="Institution *" placeholder="Enter your institution name" />
-          <ContactFormField label="Tell us more about your brand" placeholder="Enter additional information" />
+          <ContactFormField label="Tell us more about your project" placeholder="Enter additional information" />
           <div className="flex gap-5 justify-between mt-5 max-md:flex-wrap max-md:max-w-full">
             <button onClick={onSubmit}
             className="px-8 py-3 text-lg font-medium hover:opacity-80
