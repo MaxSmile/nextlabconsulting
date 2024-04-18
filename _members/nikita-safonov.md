@@ -1,7 +1,7 @@
 ---
 date: "2024-03-20T00:00:00Z"
 title: "Nikita Safonov"
-subtitle: " MCs in Nuclear Physics"
+subtitle: " MSs in Nuclear Physics"
 description: "Cofounder"
 picture: "/team/Nikita.webp"
 expertise:
