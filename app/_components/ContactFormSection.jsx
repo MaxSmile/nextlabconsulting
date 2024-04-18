@@ -35,7 +35,7 @@ function ContactFormSection() {
                   and help us better understand your needs, ensuring we provide
                   the best possible service.</p>
                   <p className="mt-8">
-                  Email us for any question at <a href='mailto:info@nextlabconsultion.com' 
+                  Email us for any question at <a href='mailto:info@nextlabconsulting.com' 
                     className="text-blue-200 underline hover:opacity-80" target='_blank'>info@nextlabconsultion.com</a>
                     </p>
                 </div>
