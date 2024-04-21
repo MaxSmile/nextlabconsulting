@@ -33,16 +33,16 @@ const ServiceRecord = ({ title, description, bulletPoints, index }) => {
       {isExpanded && (
         <div className="p-9 bg-white border-b border-solid border-zinc-500 max-md:px-5 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-            <div className="text-lg leading-6 text-accent max-md:mt-10">
+            <div style={{ width: '250px' }} className="text-lg leading-6 text-accent max-md:mt-10">
               {description}
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-0 max-md:max-w-full">
+            <div style={{ width: '800px' }} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-0 max-md:max-w-full">
               {bulletPoints.map((point, index) => (
                 <div key={index} className="flex gap-2">
                   <div className="flex flex-col">
                     <div className="shrink-0 w-3 h-3 bg-blue-700 rounded-lg mt-2" />
                   </div>
-                  <div className="text-lg font-bold leading-7 text-gray-900">
+                  <div className="text-lg font-bold leading-7 text-gray-900 ">
                     {point}
                   </div>
                 </div>
