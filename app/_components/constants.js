@@ -28,7 +28,7 @@ export const TeamMembers = [
     },
     {
         name: "Nikita Safonov",
-        title: "PhD in Organic Chemistry",
+        title: "MSc in Physics",
         bio: "Nikita is a seasoned professional in nuclear medicine with a foundation in nuclear physics and accelerator engineering acquired in Moscow, Russia. Having led the Cyclotron Laboratory at Moscow Central Hospital for eight years, his responsibilities included overseeing its establishment and the manufacturing of diverse radiotracers. Presently, serving as the Cyclotron Operations Manager at Royal Darwin Hospital, Australia, he has played a key role in the success of a project, contributing from its initiation to achieving operational status in 2022.",
         imageSrc: "/team/Nikita.webp",
         link:"/team/nikita-safonov",
@@ -47,34 +47,34 @@ export const AreasOfExpertise = [
     {
         imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/9aa720df0acc118c82c0765f1f15e2139fb30ed91883341f3a746e67d1f5e574?apiKey=a077d5b1349f48f38f4ae0cc0f777298&",
         title: "Cyclotrons and Radiochemistry",
-        link:"services/#cyclotrons-and-radiochemistry",
+        //link:"services/#cyclotrons-and-radiochemistry",
     },
     {
         imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/993c59ca6e0280478dc0b000478095de89bbf521702fdb9e1627b8fe65720039?apiKey=a077d5b1349f48f38f4ae0cc0f777298&",
-        title: "Training and Quality Management System",
-        link:"services/#training-and-quality-management-system",
+        title: "Training and Stakeholder Liason",
+        //link:"services/#training-and-quality-management-system",
     },
     {
         imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/ca31207714cf35204cdd0bc940dffc7d54617be3af08e4fa260032179f5c4bd0?apiKey=a077d5b1349f48f38f4ae0cc0f777298&",
         title: "Quality Control and GMP Compliance",
-        link:"services/#quality-control-and-gmp-compliance",
+        //link:"services/#quality-control-and-gmp-compliance",
     },
     {
         imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/52592cce82f9317d41652231d068745c015de15c959142bcac3b8aa0c29f9e63?apiKey=a077d5b1349f48f38f4ae0cc0f777298&",
-        title: "Facility design and equipment procurement",
-        link:"services/#facility-design-and-equipment-procurement",
+        title: "Facility Design and Equipment Procurement",
+        //link:"services/#facility-design-and-equipment-procurement",
     },
 ];
 
 export const ServicesData = [
     {
         title: "Audit",
-        description: "Comprehensive audit of your facility or upcoming project",
+        description: "Comprehensive auditing of your facility or upcoming project",
         bulletPoints: [
             "Quality Control Procedures",
             "Regulatory Compliance",
             "Documentation Practices",
-            "Cyclotron operation",
+            "Cyclotron Operation",
             "Radiation Safety",
             "cGMP",
             "Staffing & Budget"
@@ -86,13 +86,13 @@ export const ServicesData = [
         title: "Consultation",
         description: "Consultation services for your projects",
         bulletPoints: [
-            "Nuclear medicine production facility design",
-            "Equipment procurement",
+            "Nuclear Medicine Production Facility Design",
+            "Equipment Procurement",
             "Operations",
-            "Radioisotope production implementation",
-            "Radiopharmaceutical development",
+            "Radioisotope Production Implementation",
+            "Radiopharmaceutical Development",
             "Regulatory and GMP Compliance",
-            "Clinical translation"
+            "Clinical Translation"
         ],
         index: 1
     },
@@ -100,13 +100,13 @@ export const ServicesData = [
         title: "Training",
         description: "Professional training sessions tailored to your needs",
         bulletPoints: [
-            "Cyclotron operation and managment",
+            "Cyclotron Operation and Managment",
             "Radiochemistry",
-            "Quality assurance",
-            "Quality control",
-            "Annual GMP requalification",
+            "Quality Assurance",
+            "Quality Control",
+            "Annual GMP Requalification",
             "Radiation Safety",
-            "Cleanroom practices"
+            "Cleanroom Practices"
         ],
         index: 2
     },
@@ -114,10 +114,10 @@ export const ServicesData = [
         title: "Troubleshooting",
         description: "Expert troubleshooting services for your technical issues",
         bulletPoints: [
-            "Problem diagnosis",
-            "Root cause analysis",
-            "Effective solutions",
-            "Preventive measures"
+            "Problem Diagnosis",
+            "Root Cause Analysis",
+            "Effective Solutions",
+            "Preventive Measures"
         ],
         index: 3
     }
