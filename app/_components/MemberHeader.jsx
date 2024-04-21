@@ -29,16 +29,16 @@ export function MemberHeader({ article }) {
           
           <p className="text-secondary">{article.description}</p>
           <h2 className='text-2xl mt-4'>Areas of Expertise</h2>
-          <ul className="text-secondary">
+          <ul className="list-disc pl-5 space-y-2 text-secondary">
    
               {article.expertise.map((area, index) => (
-                <li key={index} className=" ml-0 hover:underline" >{area}</li>
+                <li key={index} className=" ml-0" >{area}</li>
               ))}
   
             </ul>
         </div>
       </div>
-      <h2 className="text-2xl my-4">Biography</h2>
+      <h2 className="text-2xl my-4 ">Biography</h2>
     </section>
   );
 }
