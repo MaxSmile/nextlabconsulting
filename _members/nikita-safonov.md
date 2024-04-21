@@ -1,8 +1,8 @@
 ---
 date: "2024-03-20T00:00:00Z"
 title: "Nikita Safonov"
-subtitle: " Nuclear Physicist & Engineer"
-description: "Cofounder"
+subtitle: " Cofounder"
+description: "MSc"
 picture: "/team/Nikita.webp"
 expertise:
     - Radiopharmaceutical production using cyclotrons, including solid target production, purification techniques and development for Cu-64, Ga-68, Y-86, Zr-89 and I-124
