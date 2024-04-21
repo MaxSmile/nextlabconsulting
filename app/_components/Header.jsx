@@ -14,11 +14,11 @@ export default function Header() {
   const menuClasses = isMenuOpen ? "translate-x-0" :"translate-x-full";
 console.log(menuClasses)
   return (
-    <header className="fixed top-0 left-0 right-0 z-40 bg-[#eee] py-6 shadow-xl hover:shadow-inner ">
+    <header className="fixed top-0 left-0 right-0 z-40 bg-[#eee] py-4 shadow-xl hover:shadow-inner ">
       <div className="container mx-auto flex justify-between items-center max-w-7xl lg:px-10 px-4">
         
         
-        <div className="flex gap-8">
+        <div className="flex gap-10">
         <Logo />
           <nav className="hidden md:flex gap-6 text-2xl text-secondary mt-3">
             {MainMenu.map((item, index) => (
