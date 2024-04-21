@@ -22,33 +22,22 @@ function TeamMember({ name, title, picture, slug, subtitle, keywords, descriptio
                   height={484}
                 />
               </a>
-              {/*
-              <div className="absolute bottom-0 left-0 right-0 p-4 text-xt font-medium leading-10 uppercase
-          bg-black bg-opacity-50
-          text-white text-center min-h-[80px] line-clamp-1">
-                    
-                </div>
-               <div className="relative mt-80 text-white max-md:mt-10">
-                <div title={title}
-                  className="relative justify-center px-3 py-1.5 text-sky-700 uppercase whitespace-nowrap 
-              bg-white  rounded-full">
-                  <a href={"/" + name}>{name}</a>
-                </div>
-
-              </div> */}
             </div>
           </div>
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-            <div className="grow justify-center self-stretch py-6 tracking-tight leading-7 
+            <div className="flex flex-col grow justify-between self-stretch py-6 tracking-tight leading-7 
             text-accent max-md:mt-6 px-3">
               <div><a href={'/team/' + slug + '/'}><h2 className="text-3xl font-medium">{title}</h2></a></div>
               <div className="text-xl text-secondary">{description}</div>
-              <div className="text-xl my-3">{subtitle}</div>
+              <div className="text-xl my-5">{subtitle}</div>
               
-              <div className="w-full">{keywords.map((keyword, index) => <div  key={index} className="my-2"><span className="bg-secondary p-1 text-white rounded-lg"
-              >{keyword}</span></div>)}</div>
+              {/* Adjust this div to push keywords to the bottom */}
+              <div className="flex-grow flex flex-col justify-end mb-5">
+                <div className="w-full">{keywords.map((keyword, index) => 
+                <div key={index} className="my-3"><span className="bg-secondary p-1 text-white rounded-lg">
+                {keyword}</span></div>)}</div>
+              </div>
             </div>
-
           </div>
         </div>
       </div>

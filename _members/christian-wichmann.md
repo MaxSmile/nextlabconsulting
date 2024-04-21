@@ -1,8 +1,8 @@
 ---
 date: "2024-03-20T00:00:00Z"
 title: "Christian Wichmann"
-subtitle: "PhD in Radiochemistry"
-description: "Cofounder"
+subtitle: "Radiochemist"
+description: "Cofounder, PhD"
 picture: "/team/Christian.webp"
 expertise:
     - Radiochemistry of SPECT, PET, and therapeutic isotopes including 11C, 18F, 64Cu, 68Ga, 89Zr, 99mTc, 124I, 177Lu, and 225Ac

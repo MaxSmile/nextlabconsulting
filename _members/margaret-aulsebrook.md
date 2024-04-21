@@ -1,8 +1,9 @@
 ---
 date: "2024-03-20T00:00:00Z"
 title: "Maggie Aulsebrook"
-subtitle: "PhD in Radiochemistry"
-description: "Cofounder"
+subtitle: "QA Manager"
+description: "Cofounder, PhD"
+Education: "PhD Radiochemistry"
 picture: "/team/Maggie.webp"
 expertise:
     - Radiopharmaceuticals
