@@ -27,7 +27,7 @@ export default function Footer() {
       </div>
       <div className="flex gap-5 mt-6 text-sm leading-5 text-secondary max-md:flex-wrap max-md:max-w-full px-4">
         <div className="flex max-md:max-w-full">
-          © 2023 - {new Date().getFullYear()} NEXT LAB Consulting PTY LTD
+          © 2023 - {new Date().getFullYear()} NextLab Consulting PTY LTD
           <br/>
 ABN 77675166793 
         </div>
