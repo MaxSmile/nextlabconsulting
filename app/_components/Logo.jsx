@@ -1,8 +1,9 @@
 import Image from "next/image";
 
+
 export default function Logo({ color = '#183050' }) {
   const dWhite = 8;
-  const dBlue = 6;
+  const dBlue = 8;
   return (
     <div className="font-bold mt-1">
       <a href="/#top">
