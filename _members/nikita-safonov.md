@@ -5,14 +5,18 @@ subtitle: " Nuclear Physicist "
 description: "Cofounder, MSc"
 picture: "/team/Nikita.webp"
 expertise:
-    - Radiopharmaceutical production using cyclotrons, including solid target production, purification techniques and development for Cu-64, Ga-68, Y-86, Zr-89 and I-124
+    - Radiopharmaceutical production using cyclotrons for clinical use 
 keywords:
     - Project and Staff Management
-    - Routine Production 
+    - Clinical Production 
     - Equipment Troubleshooting
     - Staff Training 
 ---
-Nikita is a seasoned professional in nuclear medicine with a foundation in nuclear physics and accelerator engineering acquired in Moscow, Russia. Having led the Cyclotron Laboratory at Moscow Central Hospital for eight years, his responsibilities included overseeing its establishment and the manufacturing of diverse radiotracers. Presently, serving as the Cyclotron Operations Manager at Royal Darwin Hospital, Australia, he has played a key role in the success of a project, contributing from its initiation to achieving operational status in 2022. 
+Nikita Safonov is a highly accomplished cyclotron operations manager with extensive experience in radiopharmaceutical production, quality control, and cyclotron facility management. Since August 2021, Nikita has been managing the cyclotron facility at Royal Darwin Hospital in Darwin, Australia, where he is responsible for overseeing the production of radiopharmaceuticals for the hospital's PET service. His role involves leading the development and implementation of Standard Operating Procedures (SOPs), coordinating equipment maintenance, and ensuring compliance with Good Manufacturing Practices (GMP).
 
+Nikita's role requires him to coordinate radiation monitoring, schedule equipment repairs, and guide team members in cyclotron operations. He works closely with RDH PET clinical operations to ensure efficient service delivery and maintains a positive workplace culture through effective leadership. His ability to foster a safe working environment and focus on continual improvement has earned him recognition for his exemplary leadership practices.
 
-Nikita’s career highlights a dedication to advancing medical imaging through a combination of academic knowledge and practical implementation.
+Before his role at Royal Darwin Hospital, Nikita served as the Head of Isotope Production Lab at the Central Clinical Hospital in Moscow, Russia, from December 2014 to July 2021. During this time, he designed and installed cyclotron and radiochemical labs, supervised project design, and maintained particle accelerators. His role involved the production of Fluorine-18, Carbon-11, and Oxygen-15-based radiopharmaceuticals. Additionally, Nikita facilitated international collaborations for training and scientific research, developed refresher courses in nuclear medicine, and managed GMP documentation.
+
+Nikita's earlier experience includes working as a Medical Equipment Specialist at Nuclear Technologies in Pharmaceutical Industry LLC at the National Research Center «Kurchatov Institute». Here, he contributed to the Siemens RDS cyclotron and hot cells, providing service maintenance and leading product management and promotion. His technical expertise extended to drafting documentation and collaborating with major industry distributors.
+He holds a Master's Degree in Physics of Charged Particle Beams and Accelerating Technics from MEPhI, where his thesis focused on the development of a target device for the production of Iodine-124 in particle accelerators.  
