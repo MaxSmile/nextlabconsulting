@@ -5,10 +5,13 @@ subtitle: " Nuclear Physicist "
 description: "Cofounder, MSc"
 picture: "/team/Nikita.webp"
 expertise:
-    - Radiopharmaceutical Cyclotron production for clinical use
+    - Cyclotron production for clinical use
     - Routine production of Fluorine-18, Gallium-68, Carbon-11 and Oxygen-18 based tracers 
-    - QC, Production and Cyclotron troubleshooting
-    - Training and supporting staff in all production areas  
+    - Cyclotron, Production and QC equipment troubleshooting
+    - Training and support staff in all areas   
+    - Project management and planning  
+    - Equipment procurement and installation
+    - Production audit and optimisation   
 keywords:
     - Project and Staff Management
     - Clinical Production 
