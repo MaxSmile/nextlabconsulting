@@ -31,9 +31,9 @@ function ContactFormSection() {
                 </div>
                 <div className="mt-6 text-xl leading-7 text-white">
                   <p>Share your project insights!</p>
-                  {/* <p className='mt-4'>Click here to fill out a quick form
+                  <p className='mt-4'>Click here to fill out a quick form
                   and help us better understand your needs, ensuring we provide
-                  the best possible service.</p> */}
+                  the best possible service.</p>
                   <p className="mt-8">
                   Email us with any questions at <a href='mailto:info@nextlabconsulting.com' 
                     className="text-blue-200 underline hover:opacity-80" target='_blank'>info@nextlabconsulting.com</a>
@@ -41,13 +41,13 @@ function ContactFormSection() {
                 </div>
               </div>
             </div>
-             {/* <div className="flex flex-col w-full">
-             {submitted ? (
+            <div className="flex flex-col w-full">
+            {submitted ? (
               <ContactThankYou />
             ) : (
               <ContactForm onSubmit={handleSubmit} />
             )}
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
