@@ -13,7 +13,7 @@ keywords:
     - Cyclotron Operations
     - Isotope Production
     - RadioPharm Lab Design
-    - Equipment Procurment
+    - Equipment Procurement
 ---
 Harris brings over a decade of hands-on experience in the use of cyclotrons in the field of Nuclear Medicine. Based at one of Australia’s largest and oldest public hospital cyclotron facilities, he leads a highly capable team of scientists and engineers that is responsible for the operation and upkeep of the hospital’s two cyclotrons and Solid Target Lab, providing Australia wide supply of key isotopes used for research and medical imaging such as F-18, Cu-64, Ga-68, Y-86, Zr-89, and I-124.
 
