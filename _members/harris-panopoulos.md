@@ -21,6 +21,6 @@ Harris is a seasoned expert in the development, purification and QC of cyclotron
 
 Through his years on the job, Harris understands all aspects of day to day cyclotron operations, from complete maintenance and troubleshooting to staffing requirements and budgetary considerations, and everything in between.
 
-In addition to his operational expertise, Harris has also managed cyclotron facility and cleanroom design and construciton projects. Most recently, an upgrade to an existing solid target lab, doubling its isotope production capacity, and a Grade C radiopharmaceutical production cleanroom with dedicated dispensing hotcell and capacity for eight radiosynthesis modules.
+In addition to his operational expertise, Harris has also managed cyclotron facility and cleanroom design and construction projects. Most recently, an upgrade to an existing solid target lab, doubling its isotope production capacity, and a Grade C radiopharmaceutical production cleanroom with dedicated dispensing hotcell and capacity for eight radiosynthesis modules.
 
 Harris holds Bachelors and Masters Degrees in Physics from the University of Melbourne.
