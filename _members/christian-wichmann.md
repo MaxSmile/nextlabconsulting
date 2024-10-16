@@ -5,7 +5,7 @@ subtitle: "Radiochemist"
 description: "Cofounder, PhD"
 picture: "/team/Christian.webp"
 expertise:
-    - Radiochemistry of clinically relevant SPECT, PET, and therapeutic isotopes including C-11, F-18, Cu-64, Ga-68, Zr-89, Tc-99m, I-124, Lu-177, Bi-213, and Ac-255.
+    - Radiochemistry of clinically relevant SPECT, PET, and therapeutic isotopes including C-11, F-18, Cu-64, Ga-68, Zr-89, Tc-99m, I-124, Lu-177, Bi-213, and Ac-225.
     - Bioconjugation, preclinical evaluation, and clinical translation of novel small molecule, peptide, and antibody-based radiopharmaceuticals.
     - Project strategy, technology transfer, CMC/CRO/CMO management, and document review.
     - Radiochemistry facility planning, equipment procurement, installation, and operational support.
